@@ -22,24 +22,25 @@ nav a {
     display: inline-block;
     line-height: 24px;
     font-weight: 400;
-    color: rgb(0,0,0. 0.87);
+    color: rgb(0,0,0, 0.87);
     cursor: pointer;
-    padding: 5px 6.7px
+    padding: 5px 6.7px;
 }
-nav a: hover {
+nav a:hover
+{
     text-decoration: underline;
-    opacity: 85;
+    opacity: .85;
     }
-    nav img {
+nav img {
         width: 34px;
         padding: 5px;
-        margin: auto 7px
+        margin: auto 7px;
         cursor: pointer;
-    }
-    nav img: hover{
+    } 
+nav img:hover{
         opacity: 8;
     }
-    nav button { 
+nav button { 
         border: 1px solid #4285f4;
         font-weight:  bold;
         outline: none;
@@ -53,10 +54,10 @@ nav a: hover {
     .section-1 {
         flex: 1;
     }
-    .section-1 .logo {
-        display: black;
+    .section-1 .logo{
         margin: 0px auto;
-        margin-top: 107px;
+        margin-top: 107px; 
+        display: block;
     }
     .s-box {
         width: 580px;
@@ -77,15 +78,15 @@ nav a: hover {
         outline: none;
 
     }
-    .s-box .s-input: hover {
+    .s-box .s-input:hover {
         border: 1px solid #fff;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
                     0 0 2px rgba(0, 0, 0, 0.05),
                     0 0 3px rgba(0, 0, 0, 0.05),
-                    0 0 4px rgba(0, 0, 0, 0.05)
-                    0 0 5px rgba(0, 0, 0, 0.05)
-                    0 0 4px rgba(0, 0, 0, 0.05)
-                    0 0 5px rgba(0, 0, 0, 0.05)
+                    0 0 4px rgba(0, 0, 0, 0.05),
+                    0 0 5px rgba(0, 0, 0, 0.05),
+                    0 0 4px rgba(0, 0, 0, 0.05),
+                    0 0 5px rgba(0, 0, 0, 0.05),
              
     }
     .s-box .search-icon {
@@ -121,6 +122,46 @@ nav a: hover {
         .lang {
             margin-top: 30px;
             text-align: center;
+            font-size: 13px;
+            color: purple;
         }
-        
+        .lang a {
+            margin-left: 5px;
+            color: #1a0dab;
+        }
+        .lang a:hover {
+            text-decoration: underline;
+        } 
+        footer {
+            background: #f2f2f2;
+        }
+        footer h4 {
+            color: rgba(0,0,0, 0.54);
+            font-size: 15px;
+            line-height: 39.5px;
+            font-weight: 400;
+            padding-left: 29px;
+            border: 1px solid #eee;
+        }
+        footer a {
+            color: #5f6368;
+            display: inline-block;
+            padding: 12px 11.3px;
+            font-size: 14px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .links {
+            border-top: 1px solid #ddd;
+            display: flex;
+        }
+        .link-1 {
+            padding-left: 18.7px;
+            flex: 1;
+        }
+        .link-2 {
+            padding-right: 18.7px;
+            flex: 1; 
+        }        
 
